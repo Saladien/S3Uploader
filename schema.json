@@ -1,0 +1,21 @@
+{
+  "name": "S3Uploader",
+  "fields": {
+    "accessKeyId": {
+      "type": "string",
+      "label": "AWS Access Key ID"
+    },
+    "secretAccessKey": {
+      "type": "string",
+      "label": "AWS Secret Access Key"
+    },
+    "bucketName": {
+      "type": "string",
+      "label": "S3 Bucket Name"
+    },
+    "region": {
+      "type": "string",
+      "label": "AWS Region"
+    }
+  }
+}
